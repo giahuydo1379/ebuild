@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><![endif]-->
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index, follow">
+
+	<title>Thien Hoa</title>
+	<!-- Styles -->
+	<!-- <link href="assets/css/bootstrap.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link href="assets/css/bootstrap-select.css" rel="stylesheet">
+<link href="assets/css/bootstrap-datepicker.css" rel="stylesheet">
+<!-- <link href="assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet"> -->
+<link href="assets/css/swiper.min.css" rel="stylesheet">
+<link href="assets/css/component.css" rel="stylesheet">
+<link href="assets/css/demo.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" href="assets/images/upload/favicon-thienhoa.png" type="image/x-icon" sizes="16x16" >
+	
+</head>
+<body class="">
+	<!--header-->
+	
+	<header>
+	<!-- Navigation -->
+	<nav >
+        <div class="navbar topnav">
+        	<div class="row">
+        		<div class=" wrap-logo">
+        			<a href="#" class="logo">
+        				<img src="assets/images/Logo.png">
+        			</a>
+        			<div class="click-hamburger">
+        				<i class="hamburger" data-toggle="offcanvas" role="button">&nbsp</i>
+        			</div>
+        		</div>
+        		<div class="header">
+        			<div class="name_page">
+        				<a href="#">
+                            <i class="fa 
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                icon-news
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            " aria-hidden="true"></i>
+                        </a>
+        				<p class="title">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            Tin tức
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </p>
+        			</div>
+                    <div class="pull-right">
+                        <form class="form-search">
+                            <span class="label-search">Tìm kiếm thông tin theo</span>
+                            <select class="selectpicker" data-live-search="true" title="Mã đơn hàng">
+                              <option>Đơn hàng</option>
+                              <option>ID đơn hàng</option>
+                              <option>Mã sản phẩm</option>
+                              <option>Tên thành viên </option>
+                            </select>
+                            <input type="text" placeholder="Điền thông tin" class="form-control" onkeyup="keyupFunction()" id="input-search">                       
+                            <button type="submit" class="btn btn-search"><span class="icon-search"></span></button>
+                        </form>
+                        <div class="navbar-custom-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown notifications-menu">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <span class="label">3</span>
+                                    </a>
+                                </li>
+                                <li class="block-list user-menu ">
+                                    <div class="item-img">
+                                        <img class="user-image" src="assets/images/account-img.png" alt="thien hoa">
+                                    </div>
+                                    <div class="item-info dropdown control-menu " >
+                                        <a href="#" class="item-description dropdown-toggle" data-toggle="dropdown">Sunflowers<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                        <ul class="dropdown-menu account-menu">
+                                            <li class="notifi-item">
+                                                <a href="9.1-quan-ly-user.html" class="user-infor">
+                                                    Thông tin User
+                                                </a>
+                                            </li>
+                                            <li class="notifi-item">
+                                                <a href="9.1-quan-ly-user.html" class="change-password">
+                                                    Đổi mật khẩu
+                                                </a>
+                                            </li>
+                                            <li class="notifi-item">
+                                                <a href="#" class="logout">
+                                                    Đăng xuất
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>        			
+        		</div>	
+        	</div>
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+</header>
+
+
+	<!--page-container-->
+	
+    <main > 
+		<!--menu-->
+
+<aside class=" main-sidebar" style="margin-right: 50px">
+	<div class="menu" data-spy="affix" data-offset-top="50" >
+	    <div class="content">
+	    	<div class="scrollbar">
+				<ul class="panel-group list-menu" id="accordion">
+				    <li class="item-menu panel">
+			          	<a href="2.1 CMS-v2-main-home.html">
+				          	<i class="icon icon-toolaff">&nbsp</i>
+				    		<span>Quản lý chung</span>
+			    		</a>
+				    </li>
+				     <li class="item-menu panel ">
+			          	<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+				          	<i class="icon icon-donhang">&nbsp</i>
+				    		<span>Đơn hàng</span>
+				    		<i class="fa fa-angle-right" aria-hidden="true"></i>
+				    		<i class="fa fa-angle-down" aria-hidden="true"></i>
+			    		</a>
+				      	<div id="collapse2" class="panel-collapse collapse  ">
+					        <ul class="sub-menu" >
+				    			<li class="item-sub ">
+				    				<a href="11.1-xem-don-hang.html">
+				    					<p>Xem đơn hàng</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="11.5-trang-thai-don-hang.html">
+				    					<p>Trạng thái đơn hàng</p>
+				    				</a>
+				    			</li>
+				    		</ul>
+				      </div>
+				    </li>
+				    <li class="item-menu panel ">
+			          	<a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+				          	<i class="icon icon-khovan">&nbsp</i>
+				    		<span>Sản phẩm</span>
+				    		<i class="fa fa-angle-right" aria-hidden="true"></i>
+				    		<i class="fa fa-angle-down" aria-hidden="true"></i>
+			    		</a>
+			    		<div id="collapse11" class="panel-collapse collapse ">
+					        <ul class="sub-menu" >
+				    			<li class="item-sub ">
+				    				<a href="10.1-quanly-sanpham.html">
+				    					<p>Category</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="10.6-sanpham-brand.html">
+				    					<p>Thương hiệu</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="10.9-product-information.html">
+				    					<p>Sản phẩm</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="10.5-hethong-filter.html">
+				    					<p>Hệ thống Filter</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="10.4-tool-import.html">
+				    					<p>Tool import</p>
+				    				</a>
+				    			</li>
+				    		</ul>
+				      </div>
+				    </li>
+				   
+				    <!-- <li class="item-menu panel">
+			          	<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+				          	<i class="icon icon-khovan">&nbsp</i>
+				    		<span>Sản phẩm</span>
+				    		<i class="fa fa-angle-right" aria-hidden="true"></i>
+				    		<i class="fa fa-angle-down" aria-hidden="true"></i>
+			    		</a>
+				      	<div id="collapse3" class="panel-collapse collapse">
+					        <ul class="sub-menu" >
+				    			<li class="item-sub">
+				    				<a href="#">
+				    					<p>Xem đơn hàng</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub">
+				    				<a href="#">
+				    					<p>Trạng thái đơn hàng</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub">
+				    				<a href="#">
+				    					<p>Yêu cầu hỗ trợ</p>
+				    				</a>
+				    			</li>
+				    		</ul>
+				      </div>
+				    </li> -->
+				    <!-- <li class="item-menu panel">
+			          	<a href="4.1 CMS-v2-nha-cung-cap.html">
+				          	<i class="icon icon-supply">&nbsp</i>
+				    		<span>Khách hàng</span>
+			    		</a>
+				    </li> -->
+				    <li class="item-menu panel ">
+			          	<a href="8.1-Quan-ly-trang-chu.html">
+				          	<i class="icon icon-home">&nbsp</i>
+				    		<span>Trang chủ</span>
+			    		</a>
+				    </li>
+				    <li class="item-menu panel ">
+			          	<a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+				          	<i class="icon icon-ad">&nbsp</i>
+				    		<span>Khuyến mãi</span>
+				    		<i class="fa fa-angle-right" aria-hidden="true"></i>
+				    		<i class="fa fa-angle-down" aria-hidden="true"></i>
+			    		</a>
+				      	<div id="collapse8" class="panel-collapse collapse ">
+					        <ul class="sub-menu" >
+				    			<li class="item-sub ">
+				    				<a href="7.1-banner-khuyen-mai.html">
+				    					<p>Banner</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="7.2-hinh-anh-khuyen-mai.html">
+				    					<p>Hình ảnh</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="7.3-qua-tang-khuyen-mai.html">
+				    					<p>Khuyến mãi quà tặng</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="7.4-landing-page-saleoff.html">
+				    					<p>Promotion landing page</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="7.4-sale-hot.html">
+				    					<p>Khuyến mãi hót</p>
+				    				</a>
+				    			</li>
+				    		</ul>
+				      </div>
+				    </li>
+				    <li class="item-menu panel ">
+			          	<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+				          	<i class="icon icon-web">&nbsp</i>
+				    		<span>Về Thiên Hòa</span>
+				    		<i class="fa fa-angle-right" aria-hidden="true"></i>
+				    		<i class="fa fa-angle-down" aria-hidden="true"></i>
+			    		</a>
+				      	<div id="collapse7" class="panel-collapse collapse ">
+					        <ul class="sub-menu" >
+				    			<li class="item-sub ">
+				    				<a href="3.1-thien-hoa-he-thong-sieuthi.html">
+				    					<p>Hệ thống siêu thị</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="3.2-thien-hoa-gioi-thieu.html">
+				    					<p>Giới thiệu công ty</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="3.3-thien-hoa-tra-gop.html">
+				    					<p>Trả góp</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="3.4-ban-hang-B2B.html">
+				    					<p>Bán hàng B2B</p>
+				    				</a>
+				    			</li>
+				    		</ul>
+				      </div>
+				    </li>
+				    <li class="item-menu panel ">
+			          	<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+				          	<i class="icon icon-admin">&nbsp</i>
+				    		<span>Hỗ trợ khách hàng</span>
+				    		<i class="fa fa-angle-right" aria-hidden="true"></i>
+				    		<i class="fa fa-angle-down" aria-hidden="true"></i>
+			    		</a>
+				      	<div id="collapse6" class="panel-collapse collapse ">
+					        <ul class="sub-menu" >
+				    			<li class="item-sub ">
+				    				<a href="4.1-ho-tro-huong-dan.html">
+				    					<p>Hướng dẫn mua hàng</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="4.2-giao-hang-lap-dat.html">
+				    					<p>Giao hàng, lắp đặt</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="4.3-bao-hanh-doi-tra.html">
+				    					<p>Bảo hành, đổi trả</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="4.4-trung-tam-bao-hanh.html">
+				    					<p>Trung tâm bảo hành</p>
+				    				</a>
+				    			</li>
+				    		</ul>
+				      </div>
+				    </li>
+				    <li class="item-menu panel active">
+			          	<a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+				          	<i class="icon icon-news">&nbsp</i>
+				    		<span>Tin tức</span>
+				    		<i class="fa fa-angle-right" aria-hidden="true"></i>
+				    		<i class="fa fa-angle-down" aria-hidden="true"></i>
+			    		</a>
+				      	<div id="collapse9" class="panel-collapse collapse in">
+					        <ul class="sub-menu">
+				    			<li class="item-sub ">
+				    				<a href="5.1-danh-muc-tin-tuc.html">
+				    					<p>Danh mục tin tức</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub active">
+				    				<a href="5.2-bai-viet.html">
+				    					<p>Bài viết</p>
+				    				</a>
+				    			</li>
+				    		</ul>
+				      </div>
+				    </li>	
+				    <li class="item-menu panel ">
+			          	<a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+				          	<i class="icon icon-jobs">&nbsp</i>
+				    		<span>Tuyển dụng</span>
+				    		<i class="fa fa-angle-right" aria-hidden="true"></i>
+				    		<i class="fa fa-angle-down" aria-hidden="true"></i>
+			    		</a>
+				      	<div id="collapse10" class="panel-collapse collapse ">
+					        <ul class="sub-menu" >
+				    			<li class="item-sub ">
+				    				<a href="6.1-danh-muc-tuyen-dung.html">
+				    					<p>Danh mục tuyển dụng</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="6.2-vi-tri-tuyen-dung.html">
+				    					<p>Vị trí tuyển dụng</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub ">
+				    				<a href="6.3-CV-ung-tuyen.html">
+				    					<p>CV ứng tuyển</p>
+				    				</a>
+				    			</li>
+				    		</ul>
+				      </div>
+				    </li>	    
+				    <!-- <li class="item-menu panel">
+			          	<a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+				          	<i class="icon icon-report">&nbsp</i>
+				    		<span>Báo cáo</span>
+				    		<i class="fa fa-angle-right" aria-hidden="true"></i>
+				    		<i class="fa fa-angle-down" aria-hidden="true"></i>
+			    		</a>
+				      	<div id="collapse11" class="panel-collapse collapse">
+					        <ul class="sub-menu" >
+				    			<li class="item-sub">
+				    				<a href="#">
+				    					<p>Xem đơn hàng</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub">
+				    				<a href="#">
+				    					<p>Trạng thái đơn hàng</p>
+				    				</a>
+				    			</li>
+				    			<li class="item-sub">
+				    				<a href="#">
+				    					<p>Yêu cầu hỗ trợ</p>
+				    				</a>
+				    			</li>
+				    		</ul>
+				      </div>
+				    </li> -->
+				</ul> 
+	    	</div>
+	    </div>	   
+	</div>
+</aside>
+
+        
+<div class="col-md-">
+    <section class="section section-article BannerAct">
+        <h3 class="title-section">Bài viết</h3>
+        <div class="panel box-panel Panel">
+            <div class="top">
+                <h3 class="title TitleCreate">Tạo bài viết mới</h3>
+                <h3 class="title TitleUpdate" style="display: none;">Cập nhật bài viết</h3>
+                <h3 class="title TitleDisplay" style="display: none;">Danh sách bài viết mới</h3>
+                <a href="#" class="pull-right link BackAction" style="display: none;"><i class="fa fa-reply" aria-hidden="true"></i> Quay lại</a>
+                <a href="#" class="pull-right link AddAction" style="display: none;"><i class="fa fa-plus-circle" aria-hidden="true"></i> Thêm mới</a>
+            </div>
+            <div class="banner banner-display DisplayData" style="display: none;">
+                <div class="table-display">
+                    <div class="header_table">
+                        <div class="col-md-6">
+                            <div class="col-md-2">
+                                <span>STT</span>
+                            </div>
+                            <div class="col-md-5 no-padding">
+                                <span>Tên bài viết</span>
+                            </div>
+                            <div class="col-md-5">
+                                <span>Danh mục bài viết</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 no-padding ">
+                            <div class="col-md-4 no-padding">
+                                <span>Nội dung bài viết </span>
+                            </div>
+                            <div class="col-md-3">
+                                <span>Keyword</span>
+                            </div>
+                            <div class="col-md-3">
+                                <span>Trạng thái</span>
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="category_product">
+                        <li class="row">
+                            <div class="col-md-6">
+                                <div class="col-md-2">
+                                    <span>01</span>
+                                </div>
+                                <div class="col-md-5 no-padding content">
+                                    <span>Lịch sử hình thành</span>
+                                </div>
+                                <div class="col-md-5 content">
+                                    <span>Tin nội bộ</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 no-padding">
+                                <div class="col-md-4 no-padding content">
+                                    <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                </div>
+                                <div class="col-md-3 content">
+                                    <span>Giảm giá</span>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="wrapper tooltip">
+                                      <input type="checkbox" id="checkbox" class="slider-toggle" onclick="return false;" onkeydown="return false;"/>
+                                        <label class="slider-viewport" for="checkbox">
+                                            <div class="slider">
+                                                <div class="slider-button">&nbsp;</div>
+                                                <div class="slider-content left"><span>On</span></div>
+                                                <div class="slider-content right"><span>Off</span></div>
+                                            </div>
+                                        </label>
+                                        <span class="tooltiptext">Chưa kích hoạt</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="tooltip">
+                                        <i class="icon-edit-pen active UpdateAction" aria-hidden="true"></i>
+                                        <i class="icon-edit-pen-hover UpdateHover" title="Chỉnh sửa">&nbsp</i>
+                                        <span class="tooltiptext">Cập nhật</span>
+                                    </a>
+                                    <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                        <i class="icon-delete active DeleteAction" aria-hidden="true"></i>
+                                        <i class="icon-delete-hover DeleteHover" title="Xóa">&nbsp</i>
+                                        <span class="tooltiptext">Xóa</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        
+                            <li class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="col-md-5 no-padding content">
+                                        <span>Giảm giá cực sốc chỉ 49K</span>
+                                    </div>
+                                    <div class="col-md-5 content">
+                                        <span>Tin khuyến mãi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="col-md-4 no-padding content">
+                                        <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                    </div>
+                                    <div class="col-md-3 content">
+                                        <span>hotline, giảm giá</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="wrapper tooltip">
+                                          <input type="checkbox" id="checkbox" class="slider-toggle" checked onclick="return false;" onkeydown="return false;"/>
+                                            <label class="slider-viewport" for="checkbox">
+                                                <div class="slider">
+                                                    <div class="slider-button">&nbsp;</div>
+                                                    <div class="slider-content left"><span>On</span></div>
+                                                    <div class="slider-content right"><span>Off</span></div>
+                                                </div>
+                                            </label>
+                                            <span class="tooltiptext">Kích hoạt</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="tooltip">
+                                            <i class="icon-edit-pen active UpdateAction"></i>
+                                            <i class="icon-edit-pen-hover UpdateHover">&nbsp</i>
+                                            <span class="tooltiptext">Cập nhật</span>
+                                        </a>
+                                        <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                            <i class="icon-delete active DeleteAction"></i>
+                                            <i class="icon-delete-hover DeleteHover">&nbsp</i>
+                                            <span class="tooltiptext">Xóa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                            <li class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="col-md-5 no-padding content">
+                                        <span>Giảm giá cực sốc chỉ 49K</span>
+                                    </div>
+                                    <div class="col-md-5 content">
+                                        <span>Tin khuyến mãi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="col-md-4 no-padding content">
+                                        <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                    </div>
+                                    <div class="col-md-3 content">
+                                        <span>hotline, giảm giá</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="wrapper tooltip">
+                                          <input type="checkbox" id="checkbox" class="slider-toggle" checked onclick="return false;" onkeydown="return false;"/>
+                                            <label class="slider-viewport" for="checkbox">
+                                                <div class="slider">
+                                                    <div class="slider-button">&nbsp;</div>
+                                                    <div class="slider-content left"><span>On</span></div>
+                                                    <div class="slider-content right"><span>Off</span></div>
+                                                </div>
+                                            </label>
+                                            <span class="tooltiptext">Kích hoạt</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="tooltip">
+                                            <i class="icon-edit-pen active UpdateAction"></i>
+                                            <i class="icon-edit-pen-hover UpdateHover">&nbsp</i>
+                                            <span class="tooltiptext">Cập nhật</span>
+                                        </a>
+                                        <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                            <i class="icon-delete active DeleteAction"></i>
+                                            <i class="icon-delete-hover DeleteHover">&nbsp</i>
+                                            <span class="tooltiptext">Xóa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                            <li class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="col-md-5 no-padding content">
+                                        <span>Giảm giá cực sốc chỉ 49K</span>
+                                    </div>
+                                    <div class="col-md-5 content">
+                                        <span>Tin khuyến mãi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="col-md-4 no-padding content">
+                                        <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                    </div>
+                                    <div class="col-md-3 content">
+                                        <span>hotline, giảm giá</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="wrapper tooltip">
+                                          <input type="checkbox" id="checkbox" class="slider-toggle" checked onclick="return false;" onkeydown="return false;"/>
+                                            <label class="slider-viewport" for="checkbox">
+                                                <div class="slider">
+                                                    <div class="slider-button">&nbsp;</div>
+                                                    <div class="slider-content left"><span>On</span></div>
+                                                    <div class="slider-content right"><span>Off</span></div>
+                                                </div>
+                                            </label>
+                                            <span class="tooltiptext">Kích hoạt</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="tooltip">
+                                            <i class="icon-edit-pen active UpdateAction"></i>
+                                            <i class="icon-edit-pen-hover UpdateHover">&nbsp</i>
+                                            <span class="tooltiptext">Cập nhật</span>
+                                        </a>
+                                        <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                            <i class="icon-delete active DeleteAction"></i>
+                                            <i class="icon-delete-hover DeleteHover">&nbsp</i>
+                                            <span class="tooltiptext">Xóa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                            <li class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="col-md-5 no-padding content">
+                                        <span>Giảm giá cực sốc chỉ 49K</span>
+                                    </div>
+                                    <div class="col-md-5 content">
+                                        <span>Tin khuyến mãi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="col-md-4 no-padding content">
+                                        <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                    </div>
+                                    <div class="col-md-3 content">
+                                        <span>hotline, giảm giá</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="wrapper tooltip">
+                                          <input type="checkbox" id="checkbox" class="slider-toggle" checked onclick="return false;" onkeydown="return false;"/>
+                                            <label class="slider-viewport" for="checkbox">
+                                                <div class="slider">
+                                                    <div class="slider-button">&nbsp;</div>
+                                                    <div class="slider-content left"><span>On</span></div>
+                                                    <div class="slider-content right"><span>Off</span></div>
+                                                </div>
+                                            </label>
+                                            <span class="tooltiptext">Kích hoạt</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="tooltip">
+                                            <i class="icon-edit-pen active UpdateAction"></i>
+                                            <i class="icon-edit-pen-hover UpdateHover">&nbsp</i>
+                                            <span class="tooltiptext">Cập nhật</span>
+                                        </a>
+                                        <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                            <i class="icon-delete active DeleteAction"></i>
+                                            <i class="icon-delete-hover DeleteHover">&nbsp</i>
+                                            <span class="tooltiptext">Xóa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                            <li class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="col-md-5 no-padding content">
+                                        <span>Giảm giá cực sốc chỉ 49K</span>
+                                    </div>
+                                    <div class="col-md-5 content">
+                                        <span>Tin khuyến mãi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="col-md-4 no-padding content">
+                                        <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                    </div>
+                                    <div class="col-md-3 content">
+                                        <span>hotline, giảm giá</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="wrapper tooltip">
+                                          <input type="checkbox" id="checkbox" class="slider-toggle" checked onclick="return false;" onkeydown="return false;"/>
+                                            <label class="slider-viewport" for="checkbox">
+                                                <div class="slider">
+                                                    <div class="slider-button">&nbsp;</div>
+                                                    <div class="slider-content left"><span>On</span></div>
+                                                    <div class="slider-content right"><span>Off</span></div>
+                                                </div>
+                                            </label>
+                                            <span class="tooltiptext">Kích hoạt</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="tooltip">
+                                            <i class="icon-edit-pen active UpdateAction"></i>
+                                            <i class="icon-edit-pen-hover UpdateHover">&nbsp</i>
+                                            <span class="tooltiptext">Cập nhật</span>
+                                        </a>
+                                        <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                            <i class="icon-delete active DeleteAction"></i>
+                                            <i class="icon-delete-hover DeleteHover">&nbsp</i>
+                                            <span class="tooltiptext">Xóa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                            <li class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="col-md-5 no-padding content">
+                                        <span>Giảm giá cực sốc chỉ 49K</span>
+                                    </div>
+                                    <div class="col-md-5 content">
+                                        <span>Tin khuyến mãi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="col-md-4 no-padding content">
+                                        <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                    </div>
+                                    <div class="col-md-3 content">
+                                        <span>hotline, giảm giá</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="wrapper tooltip">
+                                          <input type="checkbox" id="checkbox" class="slider-toggle" checked onclick="return false;" onkeydown="return false;"/>
+                                            <label class="slider-viewport" for="checkbox">
+                                                <div class="slider">
+                                                    <div class="slider-button">&nbsp;</div>
+                                                    <div class="slider-content left"><span>On</span></div>
+                                                    <div class="slider-content right"><span>Off</span></div>
+                                                </div>
+                                            </label>
+                                            <span class="tooltiptext">Kích hoạt</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="tooltip">
+                                            <i class="icon-edit-pen active UpdateAction"></i>
+                                            <i class="icon-edit-pen-hover UpdateHover">&nbsp</i>
+                                            <span class="tooltiptext">Cập nhật</span>
+                                        </a>
+                                        <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                            <i class="icon-delete active DeleteAction"></i>
+                                            <i class="icon-delete-hover DeleteHover">&nbsp</i>
+                                            <span class="tooltiptext">Xóa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                            <li class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="col-md-5 no-padding content">
+                                        <span>Giảm giá cực sốc chỉ 49K</span>
+                                    </div>
+                                    <div class="col-md-5 content">
+                                        <span>Tin khuyến mãi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="col-md-4 no-padding content">
+                                        <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                    </div>
+                                    <div class="col-md-3 content">
+                                        <span>hotline, giảm giá</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="wrapper tooltip">
+                                          <input type="checkbox" id="checkbox" class="slider-toggle" checked onclick="return false;" onkeydown="return false;"/>
+                                            <label class="slider-viewport" for="checkbox">
+                                                <div class="slider">
+                                                    <div class="slider-button">&nbsp;</div>
+                                                    <div class="slider-content left"><span>On</span></div>
+                                                    <div class="slider-content right"><span>Off</span></div>
+                                                </div>
+                                            </label>
+                                            <span class="tooltiptext">Kích hoạt</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="tooltip">
+                                            <i class="icon-edit-pen active UpdateAction"></i>
+                                            <i class="icon-edit-pen-hover UpdateHover">&nbsp</i>
+                                            <span class="tooltiptext">Cập nhật</span>
+                                        </a>
+                                        <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                            <i class="icon-delete active DeleteAction"></i>
+                                            <i class="icon-delete-hover DeleteHover">&nbsp</i>
+                                            <span class="tooltiptext">Xóa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                            <li class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="col-md-5 no-padding content">
+                                        <span>Giảm giá cực sốc chỉ 49K</span>
+                                    </div>
+                                    <div class="col-md-5 content">
+                                        <span>Tin khuyến mãi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="col-md-4 no-padding content">
+                                        <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                    </div>
+                                    <div class="col-md-3 content">
+                                        <span>hotline, giảm giá</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="wrapper tooltip">
+                                          <input type="checkbox" id="checkbox" class="slider-toggle" checked onclick="return false;" onkeydown="return false;"/>
+                                            <label class="slider-viewport" for="checkbox">
+                                                <div class="slider">
+                                                    <div class="slider-button">&nbsp;</div>
+                                                    <div class="slider-content left"><span>On</span></div>
+                                                    <div class="slider-content right"><span>Off</span></div>
+                                                </div>
+                                            </label>
+                                            <span class="tooltiptext">Kích hoạt</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="tooltip">
+                                            <i class="icon-edit-pen active UpdateAction"></i>
+                                            <i class="icon-edit-pen-hover UpdateHover">&nbsp</i>
+                                            <span class="tooltiptext">Cập nhật</span>
+                                        </a>
+                                        <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                            <i class="icon-delete active DeleteAction"></i>
+                                            <i class="icon-delete-hover DeleteHover">&nbsp</i>
+                                            <span class="tooltiptext">Xóa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                            <li class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <span>02</span>
+                                    </div>
+                                    <div class="col-md-5 no-padding content">
+                                        <span>Giảm giá cực sốc chỉ 49K</span>
+                                    </div>
+                                    <div class="col-md-5 content">
+                                        <span>Tin khuyến mãi</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding">
+                                    <div class="col-md-4 no-padding content">
+                                        <span>Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết Nội dung bài viết </span>
+                                    </div>
+                                    <div class="col-md-3 content">
+                                        <span>hotline, giảm giá</span>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="wrapper tooltip">
+                                          <input type="checkbox" id="checkbox" class="slider-toggle" checked onclick="return false;" onkeydown="return false;"/>
+                                            <label class="slider-viewport" for="checkbox">
+                                                <div class="slider">
+                                                    <div class="slider-button">&nbsp;</div>
+                                                    <div class="slider-content left"><span>On</span></div>
+                                                    <div class="slider-content right"><span>Off</span></div>
+                                                </div>
+                                            </label>
+                                            <span class="tooltiptext">Kích hoạt</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="tooltip">
+                                            <i class="icon-edit-pen active UpdateAction"></i>
+                                            <i class="icon-edit-pen-hover UpdateHover">&nbsp</i>
+                                            <span class="tooltiptext">Cập nhật</span>
+                                        </a>
+                                        <a class="tooltip" data-toggle="modal" data-target=".DeleteModal">
+                                            <i class="icon-delete active DeleteAction"></i>
+                                            <i class="icon-delete-hover DeleteHover">&nbsp</i>
+                                            <span class="tooltiptext">Xóa</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                         
+                    </ul>
+                    <div class="bottoom_table">
+                        <p class="left">Tổng trạng thái: <span>10/40</span></p>
+                        <div class="page">
+                            <div class="wrap">
+                                <div class="left">
+                                    <i class="fa fa-angle-double-left">&nbsp</i>
+                                    <div> <p>Trước</p></div>
+                                </div>
+                                <p class="display">Trang 1/4</p>
+                                <div class="right">
+                                    <div><p>Sau</p></div>
+                                    <i class="fa fa-angle-double-right">&nbsp</i>
+                                </div>
+                            </div>                            
+                            <div class="per_page">
+                                <select class="form-control">
+                                    <option>10 dòng/ Trang</option>
+                                    <option>20 dòng/ Trang</option>
+                                    <option>30 dòng/ Trang</option>
+                                    <option>40 dòng/ Trang</option>
+                                </select>
+                                <i class="fa fa-angle-down">&nbsp</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-add AddData">
+                <div class="form-create FormCreate">
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <div class="col-md-2 text-right">
+                                <label>Tên bài viết <span>*</span></label>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="Nhập tên bài viết cần tạo">
+                                <label class="error">Nhập tên bài viết</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-2 text-right">
+                                <label>Tên Alias <span>*</span></label>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="Nhập tên alias mới cần tạo">
+                                <label class="error">Nhập tên tên alias cần tạo</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <div class="col-md-2 text-right">
+                                <label>Danh mục <span>*</span></label>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="wrap_select">
+                                    <select class="form-control">
+                                        <option>Chọn danh mục bài viết</option>
+                                        <option>Danh mục 1</option>
+                                        <option>Danh mục 2</option>
+                                        <option>Danh mục 3</option>
+                                        <option>Danh mục 4</option>
+                                    </select>
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </div>
+                                <label class="error">Chọn danh mục bài viết</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-2 text-right">
+                                <label>Keyword <span>*</span></label>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="Nhập keyword, cách nhau bởi dấu phẩy">
+                                <label class="error">Nhập keyword, cách nhau bởi dấu phẩy</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-1 text-right">
+                            <label>Hình đại diện<span>*</span></label>
+                        </div>
+                        <div class="col-md-11">
+                            <div class="part_create">
+                                <div class="col-md-5 left-load">
+                                    <div class="image-upload">
+                                        <label>
+                                            <input type='file' onchange="readURL2(this);" />
+                                            <img src="assets/images/img_upload.png" alt="">
+                                            <div class="wrap-bg" style="display: none;">
+                                                <img class="display " src="assets/images/icon-camera.png" alt="your image" >
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="infor-img">
+                                        <div class="show_file">
+                                            <span class="file_name"></span>
+                                        </div>                    
+                                        <span class="size-note">Kích thước: <b>900 x 300 px</b></span>
+                                        <span class="size-note">Dung lượng: <b>500kb</b></span>
+                                        <span class="size-note">Định dạng: <b>jpg, png</b></span>
+                                    </div>  
+                                </div>
+                                <div class="col-md-7 right-load">
+                                    <div class="wrap_images image-upload">
+                                        <img id="blah" src="assets/images/img-news.jpg" alt="your image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-1 text-right">
+                            <label>Nội dung<span>*</span></label>
+                        </div>
+                        <div class="col-md-11">
+                            <textarea class="form-control" cols="" placeholder="Nhập nội dung bài viết"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">    
+                        <div class="col-md-1 text-right">
+                            <label>Trạng thái <span>*</span></label>
+                        </div>
+                        <div class="col-md-11">
+                            <div class="col-md-7">
+                                <div class="wrapper">
+                                  <input type="checkbox" id="checkbox2" class="slider-toggle" checked />
+                                    <label class="slider-viewport" for="checkbox2">
+                                    <div class="slider">
+                                        <div class="slider-button">&nbsp;</div>
+                                        <div class="slider-content left"><span>On</span></div>
+                                        <div class="slider-content right"><span>Off</span></div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <span class="note">Chọn để kích hoạt trạng thái</span>
+                            </div>
+                            <div class="col-md-5 text-right">
+                                <div class="action">
+                                    <span class="cancel Cancel">Hủy bỏ</span>
+                                    <button type="button" value="" class="btn btn_primary BtnUpdate" data-toggle="modal" data-target=".AddSuccessModal">Lưu</button>
+                                    <button type="button" value="" class="btn btn_primary BtnUpdate"  data-toggle="modal" data-target=".AddSuccessModal">Lưu & Thêm bài viết mới</button>
+                                </div>                            
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="banner-update UpdateData">
+                <div class="form-create FormCreate">
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <div class="col-md-2 text-right">
+                                <label>Tên bài viết <span>*</span></label>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="Nhập tên bài viết cần tạo">
+                                <label class="error">Nhập tên bài viết</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-2 text-right">
+                                <label>Tên Alias <span>*</span></label>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="Nhập tên alias mới cần tạo">
+                                <label class="error">Nhập tên tên alias cần tạo</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-6">
+                            <div class="col-md-2 text-right">
+                                <label>Danh mục <span>*</span></label>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="wrap_select">
+                                    <select class="form-control">
+                                        <option>Chọn danh mục bài viết</option>
+                                        <option>Danh mục 1</option>
+                                        <option>Danh mục 2</option>
+                                        <option>Danh mục 3</option>
+                                        <option>Danh mục 4</option>
+                                    </select>
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </div>
+                                <label class="error">Chọn danh mục bài viết</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-2 text-right">
+                                <label>Keyword <span>*</span></label>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="Nhập keyword, cách nhau bởi dấu phẩy">
+                                <label class="error">Nhập keyword, cách nhau bởi dấu phẩy</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-1 text-right">
+                            <label>Hình đại diện<span>*</span></label>
+                        </div>
+                        <div class="col-md-11">
+                            <div class="part_create">
+                                <div class="col-md-5 left-load">
+                                    <div class="image-upload">
+                                        <label>
+                                            <input type='file' onchange="readURL3(this);" />
+                                            <img src="assets/images/img_upload.png" alt="">
+                                            <div class="wrap-bg" style="display: none;">
+                                                <img class="display " src="assets/images/icon-camera.png" alt="your image" >
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="infor-img">
+                                        <div class="show_file">
+                                            <span class="file_name"></span>
+                                        </div>                    
+                                        <span class="size-note">Kích thước: <b>900 x 300 px</b></span>
+                                        <span class="size-note">Dung lượng: <b>500kb</b></span>
+                                        <span class="size-note">Định dạng: <b>jpg, png</b></span>
+                                    </div>  
+                                </div>
+                                <div class="col-md-7 right-load">
+                                    <div class="wrap_images image-upload">
+                                        <img id="blah" src="assets/images/img-news.jpg" alt="your image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                     
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-1 text-right">
+                            <label>Nội dung<span>*</span></label>
+                        </div>
+                        <div class="col-md-11">
+                            <textarea class="form-control" cols="" placeholder="Nhập nội dung bài viết"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-1 text-right">
+                            <label>Trạng thái <span>*</span></label>
+                        </div>
+                        <div class="col-md-11">
+                            <div class="col-md-7">
+                                <div class="wrapper">
+                                  <input type="checkbox" id="checkbox2" class="slider-toggle" checked />
+                                    <label class="slider-viewport" for="checkbox2">
+                                    <div class="slider">
+                                        <div class="slider-button">&nbsp;</div>
+                                        <div class="slider-content left"><span>On</span></div>
+                                        <div class="slider-content right"><span>Off</span></div>
+                                    </div>
+                                    </label>
+                                </div>
+                                <span class="note">Chọn để kích hoạt trạng thái</span>
+                            </div>
+                            <div class="col-md-5 text-right">
+                                <div class="action">
+                                    <span class="cancel Cancel">Hủy bỏ</span>
+                                    <button type="button" value="" class="btn btn_primary BtnUpdate" data-toggle="modal" data-target=".SuccessModal">Lưu</button>
+                                    <button type="button" value="" class="btn btn_primary BtnUpdate"  data-toggle="modal" data-target=".SuccessModal">Lưu & Cập nhật bài viết </button>
+                                </div>                            
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>            
+            <div class="no-banner NoData" >
+                <p>Chưa có thông tin, bạn vui lòng thêm mới!</p>
+                <button class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>Thêm mới</button>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- Modal -->
+<div class="SuccessModal modal fade" role="dialog">
+    <div class="modal-dialog">
+    
+        <div class="modal-content ">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="content">
+                <i class="icon_success">&nbsp</i>
+                <h2>Cập nhật nội dung thành công!</h2>
+                <button type="button" class="btn_next btn-save" data-dismiss="modal">Tiếp tục</button>
+            </div>
+        </div>
+      
+    </div>
+</div>
+  
+<!-- Modal -->
+<div class="AddSuccessModal modal fade" role="dialog">
+    <div class="modal-dialog">
+    
+        <div class="modal-content ">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="content">
+                <i class="icon_success">&nbsp</i>
+                <h2>Thêm mới nội dung thành công!</h2>
+                <button type="button" class="btn_next btn-save" data-dismiss="modal">Tiếp tục</button>
+            </div>
+        </div>
+      
+    </div>
+</div>
+  
+<!-- Modal -->
+<div class="DeleteModal modal fade" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="content">
+            <i class="icon_delete">&nbsp</i>
+            <h2>Bạn có muốn xóa nội dung này?</h2>
+            <button type="button" class="btn btn-cancel" data-dismiss="modal">Hủy</button>
+            <button type="button" class="btn btn-del" data-dismiss="modal">Xóa</button>
+        </div>
+      </div>
+      
+    </div>
+</div>
+  
+
+    </main>
+
+	<!--footer-->
+	
+	<footer>
+	<div class="container">
+	© 2011 - 2017. Trung tâm mua sắm trực tuyến điện máy và nội thất Thiên Hòa
+    </div>
+</footer>
+
+
+	
+	<!--script-->
+	<script src="assets/js/lib/jquery.js" type="text/javascript"></script>
+<script src="assets/js/lib/libs.js" type="text/javascript"></script>
+<script src="assets/js/lib/bootstrap.min.js" type="text/javascript"></script>
+<!-- <script src="assets/js/lib/jquery-ui.min.js" type="text/javascript"></script> -->
+<script src="assets/js/lib/bootstrap-select.js" type="text/javascript"></script>
+<script src="assets/js/lib/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- <script src="assets/js/lib/bootstrap-datetimepicker.js" type="text/javascript"></script> -->
+<script src="assets/js/lib/amcharts.js"></script>
+<script src="assets/js/lib/pie.js"></script>
+<!-- <script src="assets/js/lib/light.js"></script> -->
+<script src="assets/js/lib/jquery.checkall.js" type="text/javascript"></script>
+<script src="assets/js/lib/chart.js" type="text/javascript"></script>
+<script src="assets/js/plugin/swiper.min.js" type="text/javascript"></script>
+<script src="assets/js/script.js" type="text/javascript"></script>
+
+
+</body>
+</html>

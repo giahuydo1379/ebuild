@@ -1,0 +1,200 @@
+#chartdiv_category, #chartdiv_product {
+  width: 100%;
+  font-size: 11px;
+  height: 300px;
+}
+.work_progress hr:last-child {
+  display: none;
+}
+.delete-banner-so {
+  font-size: 40px;
+  position: absolute;
+  top: -25px;
+  right: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#light_box-categories,
+#light_box-modal
+{
+  top: 0;
+}
+#light_box-categories .modal-header, #light_box-categories .modal-header .close,
+#light_box-modal .modal-header, #light_box-modal .modal-header .close
+{
+  color: black;
+}
+.select2-container .select2-choice > .select2-chosen {
+  text-align: left;
+}
+.nav-filters li > a {
+  padding:8px 35px;
+}
+#range .position {
+  width: 80px;
+}
+#filter-categories .actions {
+  width: 110px;
+}
+#filter-categories .btn-primary {
+  text-transform: none;
+}
+#treeMapTable td,
+#treeMapTableCategories td
+{
+  text-align: left;
+}
+.categories_filter tr td:first-child {
+  text-align: left;
+}
+#variants .position {
+  width: 100px;
+}
+#variants .actions {
+  width: 150px;
+}
+.select2-chosen {
+  font-family: 'fontregular';
+}
+
+
+.first_step .top_detail .wrap .price-number {
+  text-align: center;
+}
+.first_step .top_detail .wrap .price-number p {
+  display: inline-block;
+}
+.first_step .top_detail .wrap .price-number p span {
+  margin-left: 10px;
+}
+@media (max-width: 1400px) {
+  .first_step .top_detail .wrap .price-number {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+}
+.first_step .top_detail .wrap .price-number input[type='number'] {
+  height: 35px;
+  width: 55px;
+  border-radius: 3px;
+  padding: 5px 5px 5px 15px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+.first_step .top_detail .wrap .price-number input[type=number]::-webkit-outer-spin-button,
+.first_step .top_detail .wrap .price-number input[type=number]::-webkit-inner-spin-button {
+  opacity: 0;
+}
+.first_step .top_detail .wrap .price-number .wrap-input {
+  position: relative;
+  display: inline-block;
+}
+.first_step .top_detail .wrap .price-number .wrap-input i {
+  position: absolute;
+  right: 10px;
+  color: #464646;
+  z-index: 0;
+  cursor: default;
+}
+.first_step .top_detail .wrap .price-number .wrap-input i.fa-caret-down {
+  top: 15px;
+}
+.first_step .top_detail .wrap .price-number .wrap-input i.fa-caret-up {
+  top: 5px;
+}
+.first_step .top_detail .wrap .price-number p {
+  text-align: center;
+  line-height: 55px;
+}
+.first_step .top_detail .wrap .price-number {
+  border-right: 1px solid #e1e1e1;
+  height: 86px;
+  padding-top: 15px;
+}
+label.error {
+  top: 0px!important;
+}
+
+.tab-content .tab-pane .main_content .top_detail .wrap .price-number
+{
+  border-right: 1px solid #e1e1e1;
+  height: 86px;
+  padding-top: 15px;
+}
+@media (max-width: 1600px) {
+  .tab-content .tab-pane .main_content .top_detail .wrap .price-number {
+    padding-right: 6px;
+    padding-left: 6px;
+    font-size: 13px;
+  }
+}
+.tab-content .tab-pane .main_content .top_detail .wrap .price-number p {
+  text-align: center;
+  line-height: 55px;
+}
+.number-in-store {
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+}
+input.frm-number {
+  padding: 0px 10px;
+}
+.div-discount {
+  line-height: 55px;
+}
+.title-list-product {
+  font-weight: bold;
+}
+.price-number .discount {
+  line-height: 0px !important;
+  margin-top: -20px;
+  color: red;
+  font-weight: bold;
+}
+section .bottoom_table .left {
+  display: inline-block;
+  margin-left: 20px;
+}
+.sources-exports .radio-inline {
+  padding-left: 0px;
+}
+
+thead.header_table th {
+  vertical-align: middle!important;
+}
+.pdl_0 {
+  padding-left: 0px;
+}
+.main-sidebar .icon {
+  margin-right: 8px;
+}
+.main-sidebar .icon.icon-news {
+  margin-right: 6px;
+}
+.wrap-logo .logo {
+  height: 100%;
+}
+.wrap-logo .logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+span.required:before {
+  color: red;
+  content: "*";
+}
+.header_table {
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  height: 44px;
+  line-height: 44px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  background: #ed1c24;
+}
+.select2-choices li, .select2-search-field, .select2-search-choice {
+  margin-bottom: 0px !important;
+}
